@@ -6,16 +6,22 @@ This project demonstrates the use of SQL for managing and querying data in an on
 **📂 Files Used**
 
 This project is built using three CSV files containing sample data:
+
 Books.csv: Contains information about books (ID, title, genre, author, price, stock, etc.)
+
 Customers.csv: Contains customer data (ID, name, location, etc.)
+
 Orders.csv: Contains order data (Order ID, Customer ID, Book ID, quantity, date, etc.)
+
 All three files include foreign key relationships using shared column names like Customer_ID and Book_ID.
 
 
 **🧩 Database Structure**
 
 Books (book_id, title, genre, author, price, stock, etc.)
+
 Customers (customer_id, name, country, city, etc.)
+
 Orders (order_id, book_id, customer_id, quantity, order_date, etc.)
 
 
