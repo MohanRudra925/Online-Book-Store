@@ -1,15 +1,21 @@
 **📘 SQL Project: Online Book Store**
+
 This project demonstrates the use of SQL for managing and querying data in an online book store. It involves importing data from CSV files and executing a variety of basic and advanced queries for data retrieval, reporting, and analysis.
+
+
 **📂 Files Used**
 This project is built using three CSV files containing sample data:
 Books.csv: Contains information about books (ID, title, genre, author, price, stock, etc.)
 Customers.csv: Contains customer data (ID, name, location, etc.)
 Orders.csv: Contains order data (Order ID, Customer ID, Book ID, quantity, date, etc.)
 All three files include foreign key relationships using shared column names like Customer_ID and Book_ID.
+
+
 **🧩 Database Structure**
 Books (book_id, title, genre, author, price, stock, etc.)
 Customers (customer_id, name, country, city, etc.)
 Orders (order_id, book_id, customer_id, quantity, order_date, etc.)
+
 
 **🔍 Basic Queries**
 1.Retrieve all books in the "Fiction" genre.
@@ -23,6 +29,7 @@ Orders (order_id, book_id, customer_id, quantity, order_date, etc.)
 9.List all genres available in the books table.
 10.Find the book with the lowest stock.
 11.Calculate the total revenue from all orders.
+
 
 **💡 Advanced Queries**
 1.Total number of books sold for each genre.
