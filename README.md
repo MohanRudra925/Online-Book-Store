@@ -70,6 +70,3 @@ Orders (order_id, book_id, customer_id, quantity, order_date, etc.)
 
 9.Remaining stock after fulfilling all orders
 
-
-8.Customer who spent the most on orders.
-9.Remaining stock after fulfilling all orders.
